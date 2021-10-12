@@ -1,0 +1,23 @@
+/* Добавить черный цвет фона на верхней панели навигации */
+.topnav {
+  position: absolute;
+right: :0px;
+left: -640px;
+top:-400px;
+  overflow: hidden;
+
+}
+
+/* Стиль окна поиска внутри панели навигации */
+.topnav input[type=text] {
+  float: right;
+  padding: 6px;
+  border: none;
+  margin-top: 8px;
+  margin-right: 16px;
+  font-size: 17px;
+}
+
+
+  }
+}

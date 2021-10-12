@@ -1,0 +1,20 @@
+.gradient-all {
+  text-shadow: 2px 8px 6px rgba(0,0,0,0.2),0px -5px 35px rgba(255,255,255,0.3);
+
+
+  position: absolute;
+  width: auto;
+  top: 110px;
+  margin: 50px;
+  width: 480px;
+  left: 420px;
+  font-size: 4em;
+  background: linear-gradient(135deg, #e800b4 20%, #4e00a3 60%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  display: inline-block;
+  padding: 0.3em 0.6em ;
+  border: 0px solid transparent;
+  border-image: linear-gradient(135deg, #e800b4 20%, #4e00a3 60%);
+  border-image-slice: 1;
+}

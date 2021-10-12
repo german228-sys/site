@@ -1,0 +1,45 @@
+* {box-sizing: border-box;}
+body{margin: 0;}
+div {padding: 30px 0}
+form {
+  position: absolute;
+
+  left: 360px;
+  top: 250px;
+  margin: 0 auto;
+  width: 1100px;
+}
+
+.topnav input {
+  width: 70%;
+  height: 42px;
+  padding-left: 10px;
+  border: 2px solid #7BA7AB;
+  border-radius: 20px;
+  outline: none;
+  background: #F9F0DA;
+  color: #9E9C9C;
+  
+}
+.topnav button {
+
+  position: absolute;
+  top: 0;
+  right: 300px;
+  width: 50px;
+  height: 42px;
+  border: none;
+    background-image: url("img/лупа.png");
+  background-color:  #7BA7AB;
+
+
+  border-radius: 0 20px 20px 0;
+  cursor: pointer;
+}
+.topnav button:before {
+  ;
+
+  font-family: FontAwesome;
+  font-size: 10px;
+  color: #F9F0DA;
+}
