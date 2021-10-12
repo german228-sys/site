@@ -3,3 +3,19 @@ body{
   background-repeat: no-repeat;
   background-position: center top;
   }
+
+  .conteiner {
+    width: 100%; /* Ширина */
+   }
+   .conteiner div {
+     position: absolute;
+    background: linear-gradient(135deg, #e800b4 20%, #4e00a3 60%);
+    top: 720px;
+    left: -10px;
+    width: 1519px;
+    color: black;
+    margin: 10px;
+    padding: 8px;
+    /* opacity: 0.7; */
+    border: 1px solid #000;
+   }
