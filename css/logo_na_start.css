@@ -71,6 +71,7 @@ top:  -20px;
 .fig{
   position: absolute;
   left: 0px;
+  right: 0px;
   top: 300px;
 }
 .text_na_site{
