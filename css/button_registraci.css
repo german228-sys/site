@@ -1,0 +1,49 @@
+.button_registraci {
+
+  position: absolute;
+
+  left: 90px;
+  top: 500px;
+  display: inline-block;
+  border-radius: 10px;
+  background-color: #ff003c ;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 40px;
+  padding: 10px;
+  width: 455px;
+  transition: all 1s;
+  cursor: pointer;
+  margin: 50px;
+box-shadow: 0 0 5px 2px;
+}
+
+.button_registraci span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button_registraci span:after {
+
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -30px;
+  transition: 1s;
+
+}
+
+.button_registraci:hover span {
+  padding-right: 30px;
+
+}
+
+.button_registraci:hover span:after {
+
+  opacity: 1;
+  right: 0;
+}
