@@ -2,58 +2,205 @@
 <head>
   <meta charset ="utf-8">
   <title>Эквивалент</title>
-  <link rel="icon" href="img/лого1.png" type="image/x-icon">
-  <link rel="stylesheet" href="css/style_na_start.css">
-  <link href="css\logo_na_start.css" rel="stylesheet" type="text/css">
-<link href="css\login_pasword.css" rel="stylesheet" type="text/css">
-<link href="css\button_registraci.css" rel="stylesheet" type="text/css">
-
-
-
-</head>
+  <!-- ПОДКЛЮЧЕНИЕ ШРИФТА -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,600;0,700;0,900;1,700&family=Oswald:wght@300;400&family=Raleway:ital,wght@1,300&family=Rubik:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css\style_index0.css">
+  </head>
 
 <body>
+  <!-- ШАПКА -->
+<header id="header" class="header">
+  <!-- ВИДЕО -->
+  <div class="fullscreen-bg">
 
-  <!-- НАДПИСИ НА САЙТЕ -->
-  <div class="logo">
-          <img src="img/лого1.png" width="150" height="120" alt="лого сайта">
+  <video loop="" muted="" autoplay="" poster="img/лого_с_фоном.jpg" class="fullscreen-bg__video">
+        <source src="img/видео_фон.mp4" type="video/mp4">
+        <source src="img/видео_фон.webm" type="video/webm">
+    </video>
   </div>
-  <div class="gradient-all">ЭКВИВАЛЕНТ</div>
-  <div class="gradient-all_system">система</div>
-  <div class="gradient">по поиску контрагента</div>
-  <!--  -->
-  <!-- ВВОД ЛОГИНА ПАРОЛЯ -->
-  <form>
-    <fieldset class="account-info">
-      <label>
-        Имя пользователя
-        <input type="text" name="username">
-      </label>
-      <label>
-        Пароль
-        <input type="password" name="password">
-      </label>
-    </fieldset>
-    <fieldset class="account-action">
-      <input class="btn" type="submit" name="submit" value="Войти">
-      <label>
-        <input type="checkbox" name="remember"> Запомнить
-      </label>
-    </fieldset>
-  </form>
-  <p class="fig"><img src="img/фон.jpg"
-     width="1519" height="400" alt="Фотография"></p>
-<div class="text_na_site">Зарегистрируйся прямо сейчас</div>
-  <!--  -->
-  <div class="conteiner">
-     <div>
-    &nbsp&nbsp&nbsp&nbsp <a href="Новости" >Новости</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="О_нас" >О нас</a>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a href="Помощь" >Помощь</a>
-     </div>
+  <!-- /ВИДЕО -->
+  <div class="overlay">
+
+  <!-- <div class = "conteiner"> -->
+    <div class="nav">
+
+<img src="img/лого1.png" alt="logo" height="40" class="logo">
+<ul class ="menu">
+
+  <li>
+    <a href="#">
+    <h3>  Главная </h3>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+    <h3>  О нас</h3>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+    <h3>  Как это работает</h3>
+    </a>
+  </li>
+  <li>
+    <a href="#">
+    <h3>  Отзывы</h3>
+    </a>
+  </li>
+  <li>
+
+    <a href="#">
+      <div class="vhod">
+    <h3> Вход</h3>
+  </div>
+    </a>
+  </li>
+</ul>
     </div>
-    <!-- Кнопка регистрации -->
-    <!-- <form id = "button_registraci" action="" target="_self"> -->
-    <button  formaction="" class="button_registraci"  style="vertical-align:middle"> <span>Зарегистрироваться</span></button>
-    <!-- </form> -->
-    <!--  -->
+  <!-- </div> -->
+
+<div class = "conteiner">
+
+  <div class="registracia">
+
+    <center>
+      <!-- <font size="5"> -->
+   <h1><p>НАЧНИ ПОИСК</p><p> КОНТРАГЕНТА ПРЯМО</p> СЕЙЧАС</h1>
+   <!-- </font> -->
+
+  </center>
+  </div>
+  <center>
+  <div class = "button_registracia">
+      <a>   <h3>ЗАРЕГИСТРИРОВАТСЯ</h3> </a>
+</div>
+</center>
+
+</div>
+<center>
+<div class = "head_center_kartinki">
+
+  <!-- <img src="img/картинка_в_слайд.png" alt="logo" width="90% class="pik"> -->
+  <!--  -->
+  <!--  -->
+  <!-- Slideshow container -->
+<div class="slideshow-container">
+
+  <!-- Full-width images with number and caption text -->
+  <div class="mySlides fade">
+    <img src="img/картинка_в_слайд.png" style="width:100%">
+  </div>
+
+
+  <div class="mySlides fade">
+    <img src="img/картинка_в_слайд2.png" style="width:100%">
+  </div>
+
+
+
+  <!-- Next and previous buttons -->
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<!-- The dots/circles -->
+<!--  -->
+  <!--  -->
+  <!--  -->
+
+</div>
+</center>
+</div>
+
+</header>
+
+
+<!-- ЦЕНТР -->
+<section id="about" class="about">
+  <div class="conteiner">
+<div class="about_1">
+  <div class="about_1_item">
+    <center>
+    <p>
+      <img src="img/картинка_крест.png" style="width:20%">
+      <p>
+        <h1>Наша история</h1>
+        <p>
+          <h3>Проект создавался в рамках проекта ГПО томского университета "ТУСУР".</h3>
+      </center>
+  </div>
+  <div class="about_1_item">
+    <center>
+    <p>
+      <img src="img/картинка_круг.png" style="width:20%">
+      <p>
+          <h1>Идея продукта</h1>
+          <p>
+            <h3>Когда мы начали создавать ИАС по поиску контрагента, хотелось сделать простую в использовании, а главное БЕСПЛАТНУЮ систему.</h3>
+      </center>
+  </div>
+  <div class="about_1_item">
+    <center>
+    <p>
+      <img src="img/картинка_плюс.png" style="width:20%">
+      <p>
+          <h1>Технология</h1>
+          <p>
+            <h3>По введенному ИНН система из открытых источников составляет информации по контрагенту, а так же без участия эксперта используя алгоритмы нейросети определит степень благонадежности. </h3>
+      </center>
+  </div>
+  </div>
+</div>
+<div class="about_2">
+    <div class="conteiner">
+<center>
+<div class="about_2_zagolovok">
+  <h1 style= "font-size:40px"><b>Как это работает</b></h1>
+  <div>
+
+<div class="about_2_1blok">
+<div class="about_2_1blok_clas1">
+<img src="img/about_2_1.png" style="width:90%">
+</div>
+<div class="about_2_1blok_clas1">
+<div class="about_2_1blok_text1">
+<h1 align="left" style= "font-size:40px"><b>Быстро</b></h1>
+<p>
+<h3 align="left"> После регистрации всего в пару кликов вы получаете возможность проверить неограниченное количество контрагентов и уже сегодня выбрать с кем вы будете сотрудничать.</h3>
+</div>
+</div>
+</div>
+
+<div class="about_2_2blok">
+
+<div class="about_2_1blok_clas2">
+<div class="about_2_1blok_text2">
+<h1 align="left" style= "font-size:40px"><b>Надежно</b></h1>
+<p>
+<h3 align="left"> Точность определения благонадежности контрагента нашими алгоритмами  составляет 98%. </h3>
+</div>
+
+</div>
+<div class="about_2_1blok_clas2">
+<img src="img/about_2_2.png" style="width:90%">
+</div>
+</div>
+</center>
+</div>
+</div>
+
+</section>
+<!-- КИНЕЦ СТРАНИЦЫ -->
+<footer id="footer" class="footer">
+  <div class="conteiner">
+
+  </div>
+</footer>
+
+
 </body>
+<script src="js/slaide.js"></script>
 </html>

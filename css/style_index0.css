@@ -1,0 +1,286 @@
+
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Raleway', sans-serif;
+font-family: 'Rubik', sans-serif;
+}
+.body{
+
+  padding: 0px;
+  font-family: 'Nunito', sans-serif;
+  font-family: 'Oswald', sans-serif;
+  font-family: 'Raleway', sans-serif;
+  font-family: 'Rubik', sans-serif;
+}
+.conteiner{
+width: 1170px;
+margin: 0 auto; /*позиционирование по центру*/
+
+}
+h3{
+  line-height:1.5;
+}
+.header{
+
+
+}
+.header a{
+  color: white;
+  transition: 0.2s linear;
+}
+.header a:hover {
+    color:#750092; /* Цвет ссылки при наведении на нее курсора мыши */
+    text-decoration: none; /* Добавляем подчеркивание */
+  }
+
+.menu{
+  display: flex;
+
+}
+
+li a{
+  padding: 0px;
+  margin: 0px;
+
+}
+li{
+  list-style-type:none;
+}
+
+.menu li a{
+
+  /* text-transform: uppercase; */
+  text-decoration: none;
+
+  font-size: 14px;
+}
+.menu li{
+  margin-right: 50px;
+}
+.nav{
+  display: flex;
+  align-items: center;
+  background: url('../img/лого_с_фоном.png')  no-repeat center top / cover;
+  padding: 0px;
+  margin: 0px;
+}
+.logo{
+margin-right: 670px;
+margin-left: 10px;
+}
+
+.vhod {
+
+  margin-right: 0px;
+  padding: 0.5px 30px 0.5px 30px;
+  background:#6900f1;
+  border-radius: 30px;
+}
+/* центр первой страницы */
+.registracia{
+ line-height: 0.4;
+  margin-top:0.5px;
+}
+.button_registracia{
+  padding: 0.1px;
+  margin-top: 50px;
+  width: 270px;
+  border-radius: 30px;
+  background: #dd35ff;
+transition: 0.2s linear;
+}
+.button_registracia:hover{
+  background-color: white;
+  color:#750092;
+}
+
+.button_registracia a{
+margin-top: 20px;
+color: white;
+transition: 0.2s linear;
+}
+ .button_registracia a :hover {
+margin: 20px;
+text-decoration: none; /* Добавляем подчеркивание */
+}
+
+
+/* БЛОК С ВИДЕО */
+/*  */
+/*  */
+.fullscreen-bg {
+    overflow: hidden;
+    z-index: -100;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top:90%;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /* тянем видео вниз */
+    width: 127%;
+}
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 142.5%;
+    z-index: 4;
+}
+.overlay h1 {
+    text-align:center;
+    color:#fff;
+    font-size: 50px;
+    margin-top:10%;
+}
+/* //БЛОК С ВИДЕО */
+/*  */
+/*  */
+.head_center_kartinki{
+  border-radius: 30px;
+
+  width: 1000px;
+  margin-top: 100px;
+}
+/* слайд шоу */
+/*  */
+/*  */
+* {box-sizing:border-box}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: -50px;
+  border-radius: 3px 0 0 3px;
+}
+.prev{
+  left: -50px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+
+
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+/* about */
+.about_1{
+  display: flex;
+  justify-content: space-between;
+
+}
+.about_1_item{
+  width: 25%;
+}
+.about_2{
+margin-top: 40px;
+  background-color: RGB(219,255,252);
+}
+.about_2_zagolovok{
+padding: 50px;
+
+}
+.about_2_1blok{
+  display: flex;
+  justify-content: center;
+
+
+}
+.about_2_1blok_clas1{
+  width: 450px;
+margin: 50 -50px;
+
+}
+.about_2_1blok_text1{
+
+  width: 290px;
+
+}
+.about_2_2blok{
+  display: flex;
+  justify-content: center;
+
+
+}
+.about_2_1blok_clas2{
+  width: 450px;
+margin: 50 -50px;
+
+}
+.about_2_1blok_text2{
+
+  width: 290px;
+
+}

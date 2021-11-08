@@ -1,0 +1,59 @@
+<html>
+<head>
+  <meta charset ="utf-8">
+  <title>Эквивалент</title>
+  <link rel="icon" href="img/лого1.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/style_na_start.css">
+  <link href="css\logo_na_start.css" rel="stylesheet" type="text/css">
+<link href="css\login_pasword.css" rel="stylesheet" type="text/css">
+<link href="css\button_registraci.css" rel="stylesheet" type="text/css">
+
+
+
+</head>
+
+<body>
+
+  <!-- НАДПИСИ НА САЙТЕ -->
+  <div class="logo">
+          <img src="img/лого1.png" width="150" height="120" alt="лого сайта">
+  </div>
+  <div class="gradient-all">ЭКВИВАЛЕНТ</div>
+  <div class="gradient-all_system">система</div>
+  <div class="gradient">по поиску контрагента</div>
+  <!--  -->
+  <!-- ВВОД ЛОГИНА ПАРОЛЯ -->
+  <form>
+    <fieldset class="account-info">
+      <label>
+        Имя пользователя
+        <input type="text" name="username">
+      </label>
+      <label>
+        Пароль
+        <input type="password" name="password">
+      </label>
+    </fieldset>
+    <fieldset class="account-action">
+      <input class="btn" type="submit" name="submit" value="Войти">
+      <label>
+        <input type="checkbox" name="remember"> Запомнить
+      </label>
+    </fieldset>
+  </form>
+  <p class="fig"><img src="img/фон.jpg"
+     width="1519" height="400" alt="Фотография"></p>
+<div class="text_na_site">Зарегистрируйся прямо сейчас</div>
+  <!--  -->
+  <div class="conteiner">
+     <div>
+    &nbsp&nbsp&nbsp&nbsp <a href="Новости" >Новости</a> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<a href="О_нас" >О нас</a>  &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <a href="Помощь" >Помощь</a>
+     </div>
+    </div>
+    <!-- Кнопка регистрации -->
+    <!-- <form id = "button_registraci" action="" target="_self"> -->
+    <button  formaction="" class="button_registraci"  style="vertical-align:middle"> <span>Зарегистрироваться</span></button>
+    <!-- </form> -->
+    <!--  -->
+</body>
+</html>
