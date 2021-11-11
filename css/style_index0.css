@@ -58,7 +58,7 @@ li{
   font-size: 14px;
 }
 .menu li{
-  margin-right: 50px;
+  margin-right: 60px;
 }
 .nav{
   display: flex;
@@ -66,10 +66,17 @@ li{
   background: url('../img/лого_с_фоном.png')  no-repeat center top / cover;
   padding: 0px;
   margin: 0px;
+  height: 80px;
+  width: 100%;
 }
-.logo{
-margin-right: 670px;
+.logo1{
+margin-right: 0;
 margin-left: 10px;
+}
+.logo2{
+margin-right: 600px;
+margin-left: 10px;
+margin-top: 15px;
 }
 
 .vhod {
@@ -83,6 +90,7 @@ margin-left: 10px;
 .registracia{
  line-height: 0.4;
   margin-top:0.5px;
+
 }
 .button_registracia{
   padding: 0.1px;
@@ -91,6 +99,7 @@ margin-left: 10px;
   border-radius: 30px;
   background: #dd35ff;
 transition: 0.2s linear;
+
 }
 .button_registracia:hover{
   background-color: white;
@@ -117,7 +126,7 @@ text-decoration: none; /* Добавляем подчеркивание */
     position: relative;
     height: 100%;
     width: 100%;
-    padding-top:90%;
+    padding-top:100%;
 }
 
 .fullscreen-bg__video {
@@ -125,7 +134,7 @@ text-decoration: none; /* Добавляем подчеркивание */
     top: 0;
     left: 0;
     /* тянем видео вниз */
-    width: 127%;
+    width: 128.4%;
 }
 .overlay {
     background: rgba(0,0,0,0.6);
@@ -133,14 +142,15 @@ text-decoration: none; /* Добавляем подчеркивание */
     top:0;
     left:0;
     width: 100%;
-    height: 142.5%;
+    /* степень */
+    height: 144%;
     z-index: 4;
 }
 .overlay h1 {
     text-align:center;
     color:#fff;
     font-size: 50px;
-    margin-top:10%;
+    margin-top:11%;
 }
 /* //БЛОК С ВИДЕО */
 /*  */
@@ -198,10 +208,6 @@ text-decoration: none; /* Добавляем подчеркивание */
 }
 
 
-
-
-
-
 /* The dots/bullets/indicators */
 .dot {
   cursor: pointer;
@@ -237,6 +243,7 @@ text-decoration: none; /* Добавляем подчеркивание */
 }
 /* about */
 .about_1{
+  margin-top: -300px;
   display: flex;
   justify-content: space-between;
 
@@ -283,4 +290,16 @@ margin: 50 -50px;
 
   width: 290px;
 
+}
+.footer1{
+            position:relative;
+            width:100%;
+            height:450px;
+
+
+            overflow:hidden;
+        }
+
+.footer2{
+  height: 150px;
 }
